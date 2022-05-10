@@ -1,21 +1,32 @@
-# evic
+# Katherine Liberona
 
-> code of pag for evic 2018
+I am a Bachelor of Computer Science & Engineering at the University of Santiago de Chile (2018) and I have been working for around 3 years on web-based applications both on the front-end and back-end.
 
-## Build Setup
+[Watch the code working here](https://evic.netlify.app).
 
-``` bash
-# install dependencies
+Have something cool to share? Pop me a message! katherine.lib.ira@gmail.com
+
+## Install the dependencies
+```bash
+yarn
+# or
 npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### Start the app in development mode (hot-code reloading, error reporting, etc.)
+```bash
+quasar dev
+```
+
+
+### Lint the files
+```bash
+yarn lint
+# or
+npm run lint
+```
+
+### Build the app for production
+```bash
+quasar build
+```
