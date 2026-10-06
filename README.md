@@ -1,12 +1,21 @@
-# Katherine Liberona Irarrázabal
+# EVIC 2018 — Conference Website
 
-[katherine.lib.ira@gmail.com](mailto:katherine.lib.ira@gmail.com) | (438) 526-1448 | Ontario, Canada | Open Work Permit
+Single-page website for **EVIC 2018**, a scientific conference hosted at Universidad de Santiago de Chile (USACH). It presents the event, invited speakers, program, competition and venue.
 
-Full Stack Developer with 6 years of experience building scalable web applications and microservices. Specialized in performance optimization and large-scale data processing. Successfully delivered critical applications, including e-commerce logistics systems, emergency response platforms, and network management solutions for satellite communications.
+## Highlights
+- Vue 2 SPA with Vue Router and smooth-scroll navigation between sections
+- Speaker and program data served from **Firebase** (VueFire), so organizers could update content without a redeploy
+- Venue map with **Leaflet** / Google Maps
+- UI built with Bulma + Buefy, loading spinners while data arrives
 
-## Technical Skills
+## Stack
+Vue 2 · Vue Router · Firebase / VueFire · Leaflet · Bulma / Buefy · Webpack
 
-Frontend: React, Vue.js, Angular, CSS, Webpack, D3.js  
-Backend: Go, PHP, C, Django, Python  
-Core: Embedded Systems, Memory Management, Threading, Network Protocols  
-Data: MySQL, MongoDB, Real-time Proces
+## Run locally
+```bash
+npm install
+npm run dev
+```
+
+---
+Katherine Liberona Irarrázabal · [github.com/katherinemli](https://github.com/katherinemli)
